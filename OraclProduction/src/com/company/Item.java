@@ -1,3 +1,13 @@
+/***********************************************
+ * Author: Freiddy Curiel
+ *
+ * Date: Sept. 29, 2018
+ *
+ * Interface called Item. Setting and getting
+ * methods to use later for products.
+ *
+ ************************************************/
+
 package com.company;
 
 import java.util.Date;
@@ -10,10 +20,9 @@ public interface Item {
 
   void setName(String name);
 
-  String getName(String name);
+  String getName();
 
-  Date getManufactureDate(Date manuDate);
+  Date getManufactureDate();
 
-  int getSerialNumber(int num);
-  }
+  int getSerialNumber();
 }
